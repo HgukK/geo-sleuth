@@ -1,0 +1,7 @@
+Pre-conclusion check:
+  ok   main answer Traveller's Cave: 6 pieces of evidence, 5 verified
+  WARN K1 is read but has no file: text read needs a zoomed image, computed results need an output file
+  ok   evidence image evidence.jpg
+  NOTE unused clues: K1 → write them into unused_clues
+  ok   Traveller's Cave falsification condition: Reject if official coordinates, OSM hotel identity, and official gallery architecture/terrace details do not converge on the same property.
+Result: pass

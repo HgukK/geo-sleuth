@@ -1,0 +1,6 @@
+Evidence panel, top to bottom:
+1. Official Traveller's Cave Hotel gallery. The right image shows the same brightly colored roof chairs and repeating ornate arch lamps visible above the wall in the user photo; the left image confirms the tuff/cave complex.
+2. Google Street View panorama zwNXE5OvMTqzkWgoJ5kMVg at 38.6394688,34.8272500 (2020-06), 10.58 m from the official hotel point. It confirms the Görçeli Sokak ridge setting and Göreme fairy-chimney terrain.
+3. Zoom-19 satellite crop centered on the official point 38.639500,34.827365, confirming the ridge-edge cave-hotel fabric and local road geometry.
+
+The original chat image is not embedded in this panel because its bytes were not mounted in the execution workspace.

@@ -1,0 +1,27 @@
+Environment and health check:
+  uv run $CLAUDE_SKILL_DIR/scripts/doctor.py --network --json > doctor.json
+
+Candidate and map checks:
+  uv run $CLAUDE_SKILL_DIR/scripts/poi.py "Travellers Cave Hotel" --city Goreme --region tr --out hotel-pois.json
+  uv run $CLAUDE_SKILL_DIR/scripts/osm.py find '["name"~"Traveller",i]' --bbox 38.635,34.820,38.646,34.835 --out osm-travellers.json
+  uv run $CLAUDE_SKILL_DIR/scripts/osm.py geom '["tourism"="hotel"]' --bbox 38.637,34.824,38.642,34.831 --out osm-hotels.geojson
+  uv run $CLAUDE_SKILL_DIR/scripts/tiles.py fetch 38.639500,34.827365 --zoom 19 --radius 3 --out satellite.jpg
+  uv run $CLAUDE_SKILL_DIR/scripts/terrain.py elev --at 38.639500,34.827365 > terrain.txt
+  uv run $CLAUDE_SKILL_DIR/scripts/gsv.py near 38.639500,34.827365 --radius 300 > gsv-near.json
+  uv run $CLAUDE_SKILL_DIR/scripts/gsv.py sheet --at 38.639500,34.827365 --headings 0,60,120,180,240,300 --out gsv-around.jpg
+
+Candidate board:
+  uv run $CLAUDE_SKILL_DIR/scripts/board.py --board board.json init --photo chat-inline-image-not-mounted.jpg
+  uv run $CLAUDE_SKILL_DIR/scripts/board.py --board board.json country tr
+  uv run $CLAUDE_SKILL_DIR/scripts/board.py --board board.json add --from osm-hotels.geojson --level area --parent Goreme --radius 100
+  uv run $CLAUDE_SKILL_DIR/scripts/board.py --board board.json rank
+  uv run $CLAUDE_SKILL_DIR/scripts/board.py --board board.json check --evidence evidence.jpg
+  uv run $CLAUDE_SKILL_DIR/scripts/board.py --board board.json report --merge result.json
+
+Unavailable on this attachment representation:
+  intake.py / EXIF / source-file OCR / Baidu-Yandex reverse-image upload / match.py against the original image
+
+Failed or partial routes:
+  doctor.py --network: Overpass health probe timed out, although later local OSM hotel queries succeeded.
+  poi.py exact-name lookup: zero candidates; direct OSM and official-site verification were used instead.
+  A later OSM place-of-worship query failed after all Overpass mirrors became unreachable; heading therefore remains approximate.

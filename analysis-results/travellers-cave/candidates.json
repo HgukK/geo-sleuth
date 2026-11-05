@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "image_source": "Chat inline image (not mounted as a local file)",
+  "datum": "WGS84",
+  "selected_candidate_id": "travellers-cave-official",
+  "candidates": [
+    {
+      "id": "travellers-cave-official",
+      "name": "Traveller's Cave Hotel & Restaurant",
+      "latitude": 38.6395,
+      "longitude": 34.827365,
+      "error_radius_m": 40,
+      "confidence": "medium",
+      "level": "building_property",
+      "status": "selected",
+      "coordinate_source": "Official hotel contact page Google Maps pin",
+      "address": "Aydinli Mahallesi, Gorceli Sokak No:7, Goreme, Nevsehir, Turkiye",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38.639500%2C34.827365",
+      "notes": "Verified property pin; the exact shutter point inside the courtyard is not proven."
+    },
+    {
+      "id": "travellers-cave-osm",
+      "name": "Traveller's Cave (OpenStreetMap)",
+      "latitude": 38.639787,
+      "longitude": 34.827224,
+      "error_radius_m": null,
+      "confidence": "high",
+      "level": "independent_property_marker",
+      "status": "corroborating",
+      "coordinate_source": "OpenStreetMap node/368291659",
+      "notes": "34.18 m from the official hotel pin; used as independent corroboration, not as the camera coordinate."
+    },
+    {
+      "id": "nearby-gsv-panorama",
+      "name": "Nearest Google Street View panorama",
+      "latitude": 38.639468817245664,
+      "longitude": 34.827249967283166,
+      "error_radius_m": null,
+      "confidence": "high",
+      "level": "road_reference",
+      "status": "corroborating",
+      "coordinate_source": "Google Street View panorama zwNXE5OvMTqzkWgoJ5kMVg, 2020-06",
+      "notes": "10.58 m from the official pin; confirms the nearby road and landscape, not the exact courtyard viewpoint."
+    }
+  ]
+}
