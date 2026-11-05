@@ -1,0 +1,384 @@
+{
+ "conclusion": "Traveller's Cave Hotel & Restaurant, Goreme, Nevsehir, Turkiye; the image was taken within the hotel property/courtyard area, looking approximately east to northeast.",
+ "coordinate": {
+  "latitude": 38.6395,
+  "longitude": 34.827365,
+  "datum": "WGS84",
+  "error_radius_m": 40,
+  "coordinate_role": "Official property/map pin; not proven as the exact shutter position"
+ },
+ "heading": {
+  "estimate": "east to northeast",
+  "degrees_approx": "60-90",
+  "status": "visual estimate; not geometrically solved"
+ },
+ "place": {
+  "name": "Traveller's Cave Hotel & Restaurant",
+  "address": "Aydinli Mahallesi, Gorceli Sokak No:7, Goreme, Nevsehir, Turkiye"
+ },
+ "confidence": {
+  "city": "high",
+  "area": "high",
+  "road": "medium",
+  "building_property": "medium",
+  "exact_camera_point": "low"
+ },
+ "limitations": [
+  "The chat image was visible to the analyst but was not mounted as a local source file, so intake.py, EXIF extraction, source-file OCR, reverse-image upload, and automated feature matching could not be run.",
+  "The 40 m radius represents the supported property/courtyard envelope, not a measured EXIF GPS uncertainty.",
+  "Street View verifies the nearby road and landscape but does not directly show the photographed courtyard facade."
+ ],
+ "board": {
+  "candidate_levels": {
+   "city": [
+    {
+     "name": "Göreme",
+     "share": 1.0,
+     "evidence": 7,
+     "verified": 6,
+     "excluded": false
+    }
+   ],
+   "area": [
+    {
+     "name": "Traveller's Cave",
+     "share": 1.0,
+     "evidence": 6,
+     "verified": 5,
+     "excluded": false
+    },
+    {
+     "name": "Asteria Cave Hotel",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Kelebek Special Cave Hotel",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Göreme Kaya Hotel",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Adelya Cave Hotel",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Spelunca",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Stone House Cave",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "GÖREME SUİTES",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Gedik Cave Hotel",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Maccan Cave Hotel",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Sultan Cave Suites",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Kelebek Special Cave Hotel#2",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Relic House",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Sos Cave Otel",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Vista Cave Hotel",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "#16",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Garden Cave Hotel",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Kufe Hotel",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Kayatas Cave Suites",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Hanzade Suites",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Сharming Cave Hotel",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Cappadocia Cave Land Hotel",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Medusa Cave Hotel",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Century Cave Hotel",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "#25",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Secret Hill Cave Suit",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "#27",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Grand Elite Cave Suites",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Castle Cave Hotel",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Koza Cave Hotel",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Hira Cave House",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Vintage Cave House",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Amber Cave Suites",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Relic House Hotel",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Cappadocia Cave Suites",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Сharming Cave Hotel#2",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    }
+   ],
+   "road": [
+    {
+     "name": "Görçeli Sokak by Traveller’s Cave",
+     "share": 1.0,
+     "evidence": 4,
+     "verified": 4,
+     "excluded": false
+    }
+   ],
+   "point": [
+    {
+     "name": "Traveller’s Cave property pin (38.639500,34.827365)",
+     "share": 1.0,
+     "evidence": 3,
+     "verified": 3,
+     "excluded": false
+    }
+   ]
+  },
+  "main": {
+   "level": "area",
+   "name": "Traveller's Cave",
+   "share": 1.0,
+   "evidence": [
+    {
+     "clue": "Official hotel contact page maps Traveller’s Cave Hotel to 38.639500,34.827365 and Görçeli Sokak No:7, Göreme",
+     "status": "computed",
+     "lr": 50.0,
+     "why": "Official address and map coordinate verify the exact hotel named on the wall",
+     "file": "official-contact-extract.txt"
+    },
+    {
+     "clue": "Tuff cave architecture, fairy-chimney skyline, Göreme basin and minaret are visible",
+     "status": "observed",
+     "lr": 3.0,
+     "why": "Göreme terrain/architecture fit; exact-hotel weight kept modest because the landscape is shared locally",
+     "file": ""
+    },
+    {
+     "clue": "OSM whole-category query found 36 hotels in the local bbox; exact name Traveller’s Cave is at 38.639787,34.827224",
+     "status": "computed",
+     "lr": 30.0,
+     "why": "Whole-category OSM query independently returns the matching hotel name and location",
+     "file": "osm-hotels-summary.json"
+    },
+    {
+     "clue": "Official gallery confirms the same tuff complex, roof terrace, bright colored chairs and repeating ornate arch lamps visible above the photo wall",
+     "status": "computed",
+     "lr": 30.0,
+     "why": "Official gallery repeats the distinctive colored roof chairs, ornate arch lamps and tuff complex seen in the user photo",
+     "file": "official-gallery-contact.jpg"
+    },
+    {
+     "clue": "Nearest Google Street View panorama is 10.58 m from the official point and shows the matching Göreme fairy-chimney terrain and Görçeli street setting",
+     "status": "computed",
+     "lr": 10.0,
+     "why": "Street View places the matching ridge/valley setting within 10.58 m of the official pin",
+     "file": "gsv-around.jpg",
+     "via": "Görçeli Sokak by Traveller’s Cave"
+    },
+    {
+     "clue": "Satellite imagery confirms dense cave-hotel fabric and ridge-edge street geometry at the official point",
+     "status": "computed",
+     "lr": 5.0,
+     "why": "Zoom-19 satellite confirms the ridge-edge urban geometry around the mapped property",
+     "file": "satellite.jpg",
+     "via": "Traveller’s Cave property pin (38.639500,34.827365)"
+    }
+   ]
+  },
+  "alternatives": [],
+  "excluded": [],
+  "unused_clues": [
+   "Visible wall sign reads Travellers Cave Hotel & Restaurant"
+  ],
+  "downweighted_not_excluded": [],
+  "falsify": {
+   "Traveller's Cave": [
+    "Reject if official coordinates, OSM hotel identity, and official gallery architecture/terrace details do not converge on the same property."
+   ]
+  },
+  "unexamined": [],
+  "level_gaps": []
+ },
+ "excluded": [],
+ "unused_clues": [
+  "Visible wall sign reads Travellers Cave Hotel & Restaurant"
+ ]
+}

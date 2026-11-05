@@ -1,0 +1,1260 @@
+{
+ "case": "geo-sleuth-travellers",
+ "photo": "chat-inline-image-not-mounted.jpg",
+ "created": "2026-11-05T05:52:27",
+ "country": "TR",
+ "candidates": {
+  "Göreme": {
+   "level": "city",
+   "parent": null,
+   "bbox": [
+    38.62,
+    34.79,
+    38.66,
+    34.86
+   ],
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": "Photo landscape and exact hotel-name verification"
+  },
+  "Asteria Cave Hotel": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.639389,
+    34.829837,
+    38.641197,
+    34.832137
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.640293,
+    34.830987
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Kelebek Special Cave Hotel": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.640917,
+    34.824553,
+    38.642726,
+    34.826853
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.641822,
+    34.825703
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Göreme Kaya Hotel": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.640111,
+    34.824093,
+    38.64192,
+    34.826393
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.641015,
+    34.825243
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Traveller's Cave": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.638883,
+    34.826074,
+    38.640692,
+    34.828374
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.639787,
+    34.827224
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Adelya Cave Hotel": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.639916,
+    34.827399,
+    38.641725,
+    34.829699
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.640821,
+    34.828549
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Spelunca": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.639241,
+    34.829491,
+    38.64105,
+    34.831791
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.640146,
+    34.830641
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Stone House Cave": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.640199,
+    34.827445,
+    38.642008,
+    34.829745
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.641103,
+    34.828595
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "GÖREME SUİTES": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.63987,
+    34.823829,
+    38.641678,
+    34.826129
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.640774,
+    34.824979
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Gedik Cave Hotel": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.638665,
+    34.82727,
+    38.640474,
+    34.82957
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.63957,
+    34.82842
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Maccan Cave Hotel": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.640013,
+    34.82577,
+    38.641822,
+    34.82807
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.640918,
+    34.82692
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Sultan Cave Suites": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.640535,
+    34.824435,
+    38.642344,
+    34.826735
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.64144,
+    34.825585
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Kelebek Special Cave Hotel#2": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.640899,
+    34.824382,
+    38.642708,
+    34.826682
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.641803,
+    34.825532
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Relic House": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.640211,
+    34.827269,
+    38.642019,
+    34.829569
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.641115,
+    34.828419
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Sos Cave Otel": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.640628,
+    34.824025,
+    38.642437,
+    34.826325
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.641532,
+    34.825175
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Vista Cave Hotel": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.640038,
+    34.825648,
+    38.641847,
+    34.827948
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.640942,
+    34.826798
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "#16": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.639382,
+    34.825188,
+    38.641191,
+    34.827488
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.640287,
+    34.826338
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Garden Cave Hotel": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.638905,
+    34.828968,
+    38.640714,
+    34.831268
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.639809,
+    34.830118
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Kufe Hotel": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.638775,
+    34.82802,
+    38.640584,
+    34.83032
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.639679,
+    34.82917
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Kayatas Cave Suites": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.638827,
+    34.828515,
+    38.640635,
+    34.830815
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.639731,
+    34.829665
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Hanzade Suites": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.640342,
+    34.828105,
+    38.642151,
+    34.830405
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.641246,
+    34.829255
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Сharming Cave Hotel": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.639939,
+    34.825403,
+    38.641748,
+    34.827703
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.640844,
+    34.826553
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Cappadocia Cave Land Hotel": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.64021,
+    34.82948,
+    38.642019,
+    34.83178
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.641115,
+    34.83063
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Medusa Cave Hotel": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.639321,
+    34.827047,
+    38.64113,
+    34.829347
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.640225,
+    34.828197
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Century Cave Hotel": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.640452,
+    34.825564,
+    38.64226,
+    34.827864
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.641356,
+    34.826714
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "#25": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.640912,
+    34.824372,
+    38.642721,
+    34.826672
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.641817,
+    34.825522
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Secret Hill Cave Suit": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.637983,
+    34.828396,
+    38.639792,
+    34.830696
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.638887,
+    34.829546
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "#27": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.639389,
+    34.829371,
+    38.641197,
+    34.831671
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.640293,
+    34.830521
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Grand Elite Cave Suites": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.638515,
+    34.828263,
+    38.640324,
+    34.830563
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.63942,
+    34.829413
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Castle Cave Hotel": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.640275,
+    34.829142,
+    38.642084,
+    34.831442
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.641179,
+    34.830292
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Koza Cave Hotel": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.640042,
+    34.824369,
+    38.641851,
+    34.826669
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.640946,
+    34.825519
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Hira Cave House": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.639651,
+    34.825517,
+    38.64146,
+    34.827817
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.640556,
+    34.826667
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Vintage Cave House": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.640608,
+    34.825851,
+    38.642416,
+    34.828151
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.641512,
+    34.827001
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Amber Cave Suites": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.640345,
+    34.829724,
+    38.642153,
+    34.832025
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.641249,
+    34.830875
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Relic House Hotel": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.641005,
+    34.828306,
+    38.641168,
+    34.828513
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.641086,
+    34.828409
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Cappadocia Cave Suites": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.641699,
+    34.830804,
+    38.642163,
+    34.831703
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.641931,
+    34.831254
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Сharming Cave Hotel#2": {
+   "level": "area",
+   "parent": "Göreme",
+   "bbox": [
+    38.640796,
+    34.826516,
+    38.640887,
+    34.826597
+   ],
+   "scan_bbox": null,
+   "center": [
+    38.640841,
+    34.826557
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Complete OSM tourism=hotel category in local bbox before exact selection",
+   "from": "osm-hotels.geojson"
+  },
+  "Görçeli Sokak by Traveller’s Cave": {
+   "level": "road",
+   "parent": "Traveller's Cave",
+   "bbox": [
+    38.6391,
+    34.8267,
+    38.64,
+    34.8277
+   ],
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": "Official address road and Street View panorama corridor"
+  },
+  "Traveller’s Cave property pin (38.639500,34.827365)": {
+   "level": "point",
+   "parent": "Görçeli Sokak by Traveller’s Cave",
+   "bbox": [
+    38.63914,
+    34.8269,
+    38.63986,
+    34.82783
+   ],
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": "Official business-map coordinate; 40 m uncertainty envelope, not claimed as exact shutter point"
+  }
+ },
+ "clues": {
+  "K1": {
+   "text": "Visible wall sign reads Travellers Cave Hotel & Restaurant",
+   "kind": "text",
+   "status": "read",
+   "file": "",
+   "source": "user-provided inline photo; local source bytes unavailable, so no crop/OCR file",
+   "used": false
+  },
+  "K2": {
+   "text": "Tuff cave architecture, fairy-chimney skyline, Göreme basin and minaret are visible",
+   "kind": "terrain",
+   "status": "observed",
+   "file": "",
+   "source": "user-provided inline photo",
+   "used": true
+  },
+  "K3": {
+   "text": "Official hotel contact page maps Traveller’s Cave Hotel to 38.639500,34.827365 and Görçeli Sokak No:7, Göreme",
+   "kind": "network",
+   "status": "computed",
+   "file": "/workspace/work/geo-sleuth-travellers/official-contact-extract.txt",
+   "source": "hotel.travellerscave.com official contact page",
+   "used": true,
+   "resolves": [
+    "K1"
+   ]
+  },
+  "K4": {
+   "text": "OSM whole-category query found 36 hotels in the local bbox; exact name Traveller’s Cave is at 38.639787,34.827224",
+   "kind": "network",
+   "status": "computed",
+   "file": "/workspace/work/geo-sleuth-travellers/osm-hotels-summary.json",
+   "source": "OpenStreetMap Overpass",
+   "used": true,
+   "resolves": [
+    "K1"
+   ]
+  },
+  "K5": {
+   "text": "Official gallery confirms the same tuff complex, roof terrace, bright colored chairs and repeating ornate arch lamps visible above the photo wall",
+   "kind": "infra",
+   "status": "computed",
+   "file": "official-gallery-contact.jpg",
+   "source": "official hotel gallery",
+   "used": true
+  },
+  "K6": {
+   "text": "Nearest Google Street View panorama is 10.58 m from the official point and shows the matching Göreme fairy-chimney terrain and Görçeli street setting",
+   "kind": "network",
+   "status": "computed",
+   "file": "gsv-around.jpg",
+   "source": "Google Street View panorama zwNXE5OvMTqzkWgoJ5kMVg, 2020-06",
+   "used": true
+  },
+  "K7": {
+   "text": "Satellite imagery confirms dense cave-hotel fabric and ridge-edge street geometry at the official point",
+   "kind": "terrain",
+   "status": "computed",
+   "file": "satellite.jpg",
+   "source": "satellite tile mosaic, zoom 19",
+   "used": true
+  },
+  "K8": {
+   "text": "Terrain elevation at the official point is approximately 1137 m",
+   "kind": "terrain",
+   "status": "computed",
+   "file": "terrain.txt",
+   "source": "Geo-Sleuth terrain.py elev",
+   "used": true
+  }
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "clue": "K3",
+   "candidate": "Traveller's Cave",
+   "lr": 50.0,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E2",
+   "clue": "K3",
+   "candidate": "Asteria Cave Hotel",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E3",
+   "clue": "K3",
+   "candidate": "Kelebek Special Cave Hotel",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E4",
+   "clue": "K3",
+   "candidate": "Göreme Kaya Hotel",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E5",
+   "clue": "K3",
+   "candidate": "Adelya Cave Hotel",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E6",
+   "clue": "K3",
+   "candidate": "Spelunca",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E7",
+   "clue": "K3",
+   "candidate": "Stone House Cave",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E8",
+   "clue": "K3",
+   "candidate": "GÖREME SUİTES",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E9",
+   "clue": "K3",
+   "candidate": "Gedik Cave Hotel",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E10",
+   "clue": "K3",
+   "candidate": "Maccan Cave Hotel",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E11",
+   "clue": "K3",
+   "candidate": "Sultan Cave Suites",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E12",
+   "clue": "K3",
+   "candidate": "Kelebek Special Cave Hotel#2",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E13",
+   "clue": "K3",
+   "candidate": "Relic House",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E14",
+   "clue": "K3",
+   "candidate": "Sos Cave Otel",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E15",
+   "clue": "K3",
+   "candidate": "Vista Cave Hotel",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E16",
+   "clue": "K3",
+   "candidate": "#16",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E17",
+   "clue": "K3",
+   "candidate": "Garden Cave Hotel",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E18",
+   "clue": "K3",
+   "candidate": "Kufe Hotel",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E19",
+   "clue": "K3",
+   "candidate": "Kayatas Cave Suites",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E20",
+   "clue": "K3",
+   "candidate": "Hanzade Suites",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E21",
+   "clue": "K3",
+   "candidate": "Сharming Cave Hotel",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E22",
+   "clue": "K3",
+   "candidate": "Cappadocia Cave Land Hotel",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E23",
+   "clue": "K3",
+   "candidate": "Medusa Cave Hotel",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E24",
+   "clue": "K3",
+   "candidate": "Century Cave Hotel",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E25",
+   "clue": "K3",
+   "candidate": "#25",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E26",
+   "clue": "K3",
+   "candidate": "Secret Hill Cave Suit",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E27",
+   "clue": "K3",
+   "candidate": "#27",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E28",
+   "clue": "K3",
+   "candidate": "Grand Elite Cave Suites",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E29",
+   "clue": "K3",
+   "candidate": "Castle Cave Hotel",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E30",
+   "clue": "K3",
+   "candidate": "Koza Cave Hotel",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E31",
+   "clue": "K3",
+   "candidate": "Hira Cave House",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E32",
+   "clue": "K3",
+   "candidate": "Vintage Cave House",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E33",
+   "clue": "K3",
+   "candidate": "Amber Cave Suites",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E34",
+   "clue": "K3",
+   "candidate": "Relic House Hotel",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E35",
+   "clue": "K3",
+   "candidate": "Cappadocia Cave Suites",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E36",
+   "clue": "K3",
+   "candidate": "Сharming Cave Hotel#2",
+   "lr": 0.02,
+   "why": "Official address and map coordinate verify the exact hotel named on the wall",
+   "file": "official-contact-extract.txt",
+   "cmd": "curl official contact page + rg coordinate/address"
+  },
+  {
+   "id": "E37",
+   "clue": "K2",
+   "candidate": "Göreme",
+   "lr": 5.0,
+   "why": "Göreme terrain/architecture fit; exact-hotel weight kept modest because the landscape is shared locally",
+   "file": "",
+   "cmd": ""
+  },
+  {
+   "id": "E38",
+   "clue": "K2",
+   "candidate": "Traveller's Cave",
+   "lr": 3.0,
+   "why": "Göreme terrain/architecture fit; exact-hotel weight kept modest because the landscape is shared locally",
+   "file": "",
+   "cmd": ""
+  },
+  {
+   "id": "E39",
+   "clue": "K4",
+   "candidate": "Traveller's Cave",
+   "lr": 30.0,
+   "why": "Whole-category OSM query independently returns the matching hotel name and location",
+   "file": "osm-hotels-summary.json",
+   "cmd": "osm.py geom '[tourism=hotel]' local bbox"
+  },
+  {
+   "id": "E40",
+   "clue": "K4",
+   "candidate": "Görçeli Sokak by Traveller’s Cave",
+   "lr": 10.0,
+   "why": "Whole-category OSM query independently returns the matching hotel name and location",
+   "file": "osm-hotels-summary.json",
+   "cmd": "osm.py geom '[tourism=hotel]' local bbox"
+  },
+  {
+   "id": "E41",
+   "clue": "K5",
+   "candidate": "Traveller's Cave",
+   "lr": 30.0,
+   "why": "Official gallery repeats the distinctive colored roof chairs, ornate arch lamps and tuff complex seen in the user photo",
+   "file": "official-gallery-contact.jpg",
+   "cmd": "curl official gallery images; montage contact sheet"
+  },
+  {
+   "id": "E42",
+   "clue": "K5",
+   "candidate": "Görçeli Sokak by Traveller’s Cave",
+   "lr": 15.0,
+   "why": "Official gallery repeats the distinctive colored roof chairs, ornate arch lamps and tuff complex seen in the user photo",
+   "file": "official-gallery-contact.jpg",
+   "cmd": "curl official gallery images; montage contact sheet"
+  },
+  {
+   "id": "E43",
+   "clue": "K5",
+   "candidate": "Traveller’s Cave property pin (38.639500,34.827365)",
+   "lr": 20.0,
+   "why": "Official gallery repeats the distinctive colored roof chairs, ornate arch lamps and tuff complex seen in the user photo",
+   "file": "official-gallery-contact.jpg",
+   "cmd": "curl official gallery images; montage contact sheet"
+  },
+  {
+   "id": "E44",
+   "clue": "K6",
+   "candidate": "Görçeli Sokak by Traveller’s Cave",
+   "lr": 10.0,
+   "why": "Street View places the matching ridge/valley setting within 10.58 m of the official pin",
+   "file": "gsv-around.jpg",
+   "cmd": "gsv.py near/sheet at official coordinate"
+  },
+  {
+   "id": "E45",
+   "clue": "K6",
+   "candidate": "Traveller’s Cave property pin (38.639500,34.827365)",
+   "lr": 8.0,
+   "why": "Street View places the matching ridge/valley setting within 10.58 m of the official pin",
+   "file": "gsv-around.jpg",
+   "cmd": "gsv.py near/sheet at official coordinate"
+  },
+  {
+   "id": "E46",
+   "clue": "K7",
+   "candidate": "Traveller’s Cave property pin (38.639500,34.827365)",
+   "lr": 5.0,
+   "why": "Zoom-19 satellite confirms the ridge-edge urban geometry around the mapped property",
+   "file": "satellite.jpg",
+   "cmd": "tiles.py fetch official coordinate z19 radius3"
+  },
+  {
+   "id": "E47",
+   "clue": "K8",
+   "candidate": "Göreme",
+   "lr": 2.0,
+   "why": "Elevation is consistent with upper Göreme but is not unique",
+   "file": "terrain.txt",
+   "cmd": "terrain.py elev at official coordinate"
+  }
+ ],
+ "falsify": {
+  "Traveller's Cave": [
+   "Reject if official coordinates, OSM hotel identity, and official gallery architecture/terrace details do not converge on the same property."
+  ]
+ },
+ "log": [
+  "05:52 country TR",
+  "05:52 add Göreme (city)",
+  "05:52 add --from osm-hotels.geojson → +36 area",
+  "05:53 add Görçeli Sokak by Traveller’s Cave (road)",
+  "05:53 add Traveller’s Cave property pin (38.639500,34.827365) (point)",
+  "05:53 clue K1 [text/read] Visible wall sign reads Travellers Cave Hotel & Restaurant",
+  "05:53 clue K2 [terrain/observed] Tuff cave architecture, fairy-chimney skyline, Göreme basin and minaret are visible",
+  "05:53 clue K3 [network/computed] Official hotel contact page maps Traveller’s Cave Hotel to 38.639500,34.827365 and Görçeli Sokak No:7, Göreme; resolves K1",
+  "05:53 clue K4 [network/computed] OSM whole-category query found 36 hotels in the local bbox; exact name Traveller’s Cave is at 38.639787,34.827224; resolves K1",
+  "05:53 clue K5 [infra/computed] Official gallery confirms the same tuff complex, roof terrace, bright colored chairs and repeating ornate arch lamps visible above the photo wall",
+  "05:53 clue K6 [network/computed] Nearest Google Street View panorama is 10.58 m from the official point and shows the matching Göreme fairy-chimney terrain and Görçeli street setting",
+  "05:53 clue K7 [terrain/computed] Satellite imagery confirms dense cave-hotel fabric and ridge-edge street geometry at the official point",
+  "05:53 clue K8 [terrain/computed] Terrain elevation at the official point is approximately 1137 m",
+  "05:53 evidence K3 → Traveller's Cave:50, Asteria Cave Hotel:0.02, Kelebek Special Cave Hotel:0.02, Göreme Kaya Hotel:0.02, Adelya Cave Hotel:0.02, Spelunca:0.02, Stone House Cave:0.02, GÖREME SUİTES:0.02, Gedik Cave Hotel:0.02, Maccan Cave Hotel:0.02, Sultan Cave Suites:0.02, Kelebek Special Cave Hotel#2:0.02, Relic House:0.02, Sos Cave Otel:0.02, Vista Cave Hotel:0.02, #16:0.02, Garden Cave Hotel:0.02, Kufe Hotel:0.02, Kayatas Cave Suites:0.02, Hanzade Suites:0.02, Сharming Cave Hotel:0.02, Cappadocia Cave Land Hotel:0.02, Medusa Cave Hotel:0.02, Century Cave Hotel:0.02, #25:0.02, Secret Hill Cave Suit:0.02, #27:0.02, Grand Elite Cave Suites:0.02, Castle Cave Hotel:0.02, Koza Cave Hotel:0.02, Hira Cave House:0.02, Vintage Cave House:0.02, Amber Cave Suites:0.02, Relic House Hotel:0.02, Cappadocia Cave Suites:0.02, Сharming Cave Hotel#2:0.02",
+  "05:53 evidence K2 → Göreme:5, Traveller's Cave:3",
+  "05:53 evidence K4 → Traveller's Cave:30, Görçeli Sokak by Traveller’s Cave:10",
+  "05:53 evidence K5 → Traveller's Cave:30, Görçeli Sokak by Traveller’s Cave:15, Traveller’s Cave property pin (38.639500,34.827365):20",
+  "05:53 evidence K6 → Görçeli Sokak by Traveller’s Cave:10, Traveller’s Cave property pin (38.639500,34.827365):8",
+  "05:53 evidence K7 → Traveller’s Cave property pin (38.639500,34.827365):5",
+  "05:53 evidence K8 → Göreme:2",
+  "05:53 falsify Traveller's Cave: Reject if official coordinates, OSM hotel identity, and official gallery architecture/terrace details do not converge on the same property."
+ ],
+ "updated": "2026-11-05T05:53:46"
+}
